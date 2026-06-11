@@ -1,0 +1,10 @@
+{
+  "title": "Oblivious Amplitude Amplification",
+  "subtitle": "Oblivious Amplitude Amplification for the amplification of LCU",
+  "description": "This demo explains the Oblivious Amplitude Amplification algorithm (OAA), which amplifies a block-encoding under the promise that the encoded matrix is unitary (or close to unitary). OAA can be used as a building block in algorithms such as Hamiltonian simulations. The demo starts with a short recap, then shows how to use it in conjunction with the Linear Combination of Unitaries (LCU) algorithm.",
+  "friendly_name": "Oblivious Amplitude Amplification",
+  "vertical_tags": [],
+  "problem_domain_tags": ["search"],
+  "qmod_type": ["algorithms"],
+  "level": ["advanced", "demos"]
+}

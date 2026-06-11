@@ -1,0 +1,9 @@
+{
+  "constraints": {
+    "optimization_parameter": "width"
+  },
+  "preferences": {
+    "qasm3": true,
+    "timeout_seconds": 3600
+  }
+}

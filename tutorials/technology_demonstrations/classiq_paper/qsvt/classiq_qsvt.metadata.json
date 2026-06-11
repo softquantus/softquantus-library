@@ -1,0 +1,10 @@
+{
+  "title": "SoftQLib QSVT",
+  "subtitle": "SoftQLib code for QSVT example",
+  "description": "This notebook generates the QSVT (Quantum Singular Value Transform) example using SoftQLib, as in the SoftQLib framework paper. It builds a QSVT circuit with configurable size, degree, and phases under width and optimization constraints, and can be compared with Qiskit, TKet, and PennyLane-Catalyst implementations.",
+  "friendly_name": "SoftQLib QSVT",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": [],
+  "level": []
+}

@@ -1,0 +1,3 @@
+Provider,Backend Name,Score,Time Elapsed (min),Width,Depth,2Q Gate Count
+SoftQLib,simulator,1.016,0.0,5,168,78
+SoftQLib,simulator_statevector,1.0,0.0,5,169,82

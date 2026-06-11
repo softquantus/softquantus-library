@@ -1,0 +1,10 @@
+{
+  "title": "QML With SoftQLib Guide",
+  "subtitle": "Quantum Machine Learning with SoftQLib",
+  "description": "A Quantum Machine Learning (QML) guide showing three ways to implement QML with SoftQLib: using the VQE primitive, the PyTorch integration, and the QSVM built-in app. Each section includes a brief explanation and a runnable example, aimed at users already familiar with SoftQLib and QML basics.",
+  "friendly_name": "QML With SoftQLib Guide",
+  "vertical_tags": [],
+  "problem_domain_tags": ["machine learning"],
+  "qmod_type": [],
+  "level": []
+}

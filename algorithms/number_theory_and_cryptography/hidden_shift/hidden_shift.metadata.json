@@ -1,0 +1,10 @@
+{
+  "title": "Hidden Shift",
+  "subtitle": "Hidden-Shift problem for bent functions",
+  "description": "Implementation of the hidden-shift algorithm for the family of Boolean bent functions using SoftQLib. The notebook presents two approaches: one that uses the dual of the function and recovers the shift with few samples, and another that requires only the function (not its dual) and uses O(n) samples to extract the shift.",
+  "friendly_name": "Hidden Shift",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": ["algorithms"],
+  "level": ["demos"]
+}

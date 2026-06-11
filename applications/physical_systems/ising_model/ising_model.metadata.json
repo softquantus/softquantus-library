@@ -1,0 +1,10 @@
+{
+  "title": "Ising Model",
+  "subtitle": "Solving Ising Model Using the QAOA Algorithm",
+  "description": "This notebook implements the Ising model with QAOA. The spin Hamiltonian (e.g. on a lattice) is encoded; QAOA approximates the ground state and the solution is interpreted.",
+  "friendly_name": "Ising Model",
+  "vertical_tags": [],
+  "problem_domain_tags": ["optimization", "chemistry"],
+  "qmod_type": ["application"],
+  "level": ["demos"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Execution Tutorial",
+  "subtitle": "Execution Tutorial - Part 1",
+  "description": "This notebook covers the basics of executing a quantum program with the SoftQLib Python SDK. It starts from a synthesized program (e.g. from the synthesis tutorial), creates an ExecutionSession, and uses sample to obtain measurement outcomes. Execution can also be done from the SoftQLib platform.",
+  "friendly_name": "Execution Tutorial",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": [],
+  "level": []
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Add Bell States",
+  "subtitle": "Add Bell States",
+  "description": "This demo prepares two Bell-state-like superpositions in Qmod and adds them using quantum arithmetic. It illustrates the prepare_state function and in-place addition of quantum numeric registers, yielding a compact example of state preparation and arithmetic.",
+  "friendly_name": "Add Bell States",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": ["algorithms"],
+  "level": ["demos"]
+}

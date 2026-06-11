@@ -1,0 +1,9 @@
+{
+  "title": "",
+  "subtitle": "Quantum compression algorithm for symmetric states algorithm",
+  "description": "Implementation of the quantum compression algorithm for symmetric states (Plesch and Bužek): a circuit compresses n identical (or permutation-symmetric) copies into a lower-dimensional space. The notebook builds the U gate (one-hot to compressed form) and the final binary encoding, and implements it on the SoftQLib platform.",
+  "friendly_name": "",
+  "problem_domain_tags": [],
+  "qmod_type": ["algorithms"],
+  "level": []
+}

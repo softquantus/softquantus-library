@@ -1,0 +1,10 @@
+{
+  "title": "Grover: Max Cut",
+  "subtitle": "Graph Cut search problem with Grover Oracle",
+  "description": "Implementation of Grover's search applied to the Max-Cut problem on a graph, using SoftQLib's phase_oracle for the cut objective.",
+  "friendly_name": "Grover: Max Cut",
+  "vertical_tags": [],
+  "problem_domain_tags": ["search", "optimization"],
+  "qmod_type": ["algorithms"],
+  "level": ["demos"]
+}

@@ -1,0 +1,4 @@
+# All values should be existing paths relative to the root of the repository
+qmod_core_library: functions/qmod_library_reference/qmod_core_library
+softqlib_open_library: functions/qmod_library_reference/softqlib_open_library
+softqlib_tutorial: tutorials/basic_tutorials/the_softqlib_tutorial

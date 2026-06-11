@@ -1,0 +1,3 @@
+example,problem_size,backend_service_provider,backend_name,num_shots,status,job_id,submitted_timestamp,timestamp,score,execution_time,circuit_depth,circuit_width,two_qubit_gate_count
+localization,3,SoftQLib,simulator,1000,COMPLETED,643c0c1f-6ac5-462a-9b21-99f26924e337,2026-05-06T11:49:56.502486,2026-05-06T11:49:59.126688,0.9221263802887811,0.014121916666666668,59,3,40
+localization,3,SoftQLib,simulator_statevector,1000,COMPLETED,c8242200-1d39-4d81-a509-08ede55009df,2026-05-06T11:50:00.049283,2026-05-06T11:50:01.814760,0.9280769464254673,0.013776199999999999,62,3,40

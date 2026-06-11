@@ -1,0 +1,10 @@
+{
+  "title": "Grover Mixer QAOA",
+  "subtitle": "Solving Optimization problem using the QAOA algorithm with a Grover Mixer Variant",
+  "description": "Implementation of QAOA with Grover mixers (GM-QAOA) for constrained optimization: the mixer is a parameterized Grover diffuser over the feasible subspace. The notebook builds GM-QAOA in SoftQLib and solves a sample constrained problem.",
+  "friendly_name": "Grover Mixer QAOA",
+  "vertical_tags": [],
+  "problem_domain_tags": ["optimization"],
+  "qmod_type": ["algorithms"],
+  "level": ["demos"]
+}

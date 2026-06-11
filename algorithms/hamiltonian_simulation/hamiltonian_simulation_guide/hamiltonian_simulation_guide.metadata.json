@@ -1,0 +1,10 @@
+{
+  "title": "Hamiltonian Simulation Guide",
+  "subtitle": "Hamiltonian Simulation",
+  "description": "Implementation of quantum Hamiltonian simulation: modeling time evolution of quantum systems using SoftQLib. The guide introduces Suzuki-Trotter decomposition and qDRIFT product formulas, with exponentiation under depth constraints, and links to block-encoding methods. Applications include chemistry, materials science, and algorithms such as HHL and Gibbs state sampling.",
+  "friendly_name": "Hamiltonian Simulation Guide",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": [],
+  "level": []
+}

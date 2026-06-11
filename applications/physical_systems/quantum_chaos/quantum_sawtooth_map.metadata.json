@@ -1,0 +1,11 @@
+{
+  "title": "Quantum Sawtooth Map",
+  "subtitle": "The Quantum Sawtooth Map",
+  "description": "This notebook provides an end-to-end implementation of the quantum sawtooth map on 3 qubits, constructing the Floquet operator as alternating diagonal phases in conjugate bases. It illustrates how SoftQLib Qmod’s language and execution framework, especially SoftQLib’s phase-assignment construct, can be used to easily define and run the dynamics, and to observe localization signatures. We use the simulator as a reference and directly compare the results to runs on real quantum hardware.",
+  "friendly_name": "Quantum Sawtooth Map",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": [],
+  "level": [],
+  "type": []
+}

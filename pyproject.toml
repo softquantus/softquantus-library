@@ -1,0 +1,14 @@
+[tool.isort]
+profile = "black"
+combine_as_imports = true
+
+known_softqlib = "softqlib"
+sections = [
+  "FUTURE",
+  "STDLIB",
+  "THIRDPARTY",
+  "FIRSTPARTY",
+  "SOFTQLIB",
+  "LOCALFOLDER",
+]
+

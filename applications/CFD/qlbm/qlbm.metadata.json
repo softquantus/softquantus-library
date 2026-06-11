@@ -1,0 +1,10 @@
+{
+  "title": "Quantum Lattice Boltzmann Method",
+  "subtitle": "Solving the Boltzmann transport equation on a 2D lattice.",
+  "description": "This notebook introduces the Quantum Lattice Boltzmann Method (QLBM) for fluid dynamics, focusing on the collisionless case with specular reflections. It explains streaming, collision, and boundary handling and implements an example in SoftQLib.",
+  "friendly_name": "Quantum Lattice Boltzmann Method",
+  "vertical_tags": [],
+  "problem_domain_tags": ["cfd"],
+  "qmod_type": ["application"],
+  "level": ["demos"]
+}

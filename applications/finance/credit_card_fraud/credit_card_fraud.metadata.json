@@ -1,0 +1,10 @@
+{
+  "title": "Credit Card Fraud Detection",
+  "subtitle": "Detecting Credit Card Fraud Using the QSVM Algorithm",
+  "description": "This demo implements fraud detection using the Quantum Support Vector Machine (QSVM) on credit card transaction data. SoftQLib's QSVM application classifies transactions and flags anomalies.",
+  "friendly_name": "Credit Card Fraud Detection",
+  "vertical_tags": ["cyber", "finance"],
+  "problem_domain_tags": [],
+  "qmod_type": ["application"],
+  "level": ["demos"]
+}

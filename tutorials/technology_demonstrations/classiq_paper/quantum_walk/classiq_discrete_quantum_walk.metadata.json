@@ -1,0 +1,10 @@
+{
+  "title": "SoftQLib Discrete Quantum Walk",
+  "subtitle": "SoftQLib code for discrete quantum walk",
+  "description": "This notebook generates the discrete quantum walk example using SoftQLib, as in the SoftQLib framework paper. It implements a walk on a circle with coin and position registers and increment logic, under width and optimization constraints, for comparison with other frameworks.",
+  "friendly_name": "SoftQLib Discrete Quantum Walk",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": [],
+  "level": []
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Hamiltonian simulation guide: Suzuki-Trotter",
+  "subtitle": "A simple Suzuki-Trotter implementation",
+  "description": "Implementation of Hamiltonian simulation using the Suzuki-Trotter decomposition in SoftQLib. The guide covers the product formula, exponentiation with depth constraint, and uses SoftQLib's synthesis engine to optimize the circuit.",
+  "friendly_name": "Hamiltonian simulation guide: Suzuki-Trotter",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": ["algorithms"],
+  "level": ["basic", "demos"]
+}

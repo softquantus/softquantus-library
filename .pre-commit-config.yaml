@@ -1,0 +1,119 @@
+default_language_version:
+  python: python3.11
+exclude: '^\.internal/docs/.*' # exclude docs from pre-commit hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-case-conflict
+      - id: check-executables-have-shebangs
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-json
+      - id: check-yaml
+      - id: end-of-file-fixer
+        name: format end of file
+      - id: trailing-whitespace
+        name: format trailing whitespace
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.1.0
+    hooks:
+      - id: prettier
+        name: format prettier
+  - repo: https://github.com/psf/black
+    rev: 24.3.0
+    hooks:
+      - id: black-jupyter
+        name: format notebook black
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.8.4
+    hooks:
+      - id: nbqa-isort
+        name: format notebook isort
+
+  - repo: local
+    hooks:
+      - id: upgrade-nbformat
+        name: format nbformat upgrade
+        entry: .internal/pre_commit_tools/set_nbformat.py
+        language: python
+        files: \.ipynb$
+        additional_dependencies:
+          - "nbformat"
+        require_serial: true
+      - id: extra-nbstripout
+        name: format nbformat strip
+        entry: .internal/pre_commit_tools/extra_nbstripout.py
+        language: python
+        files: \.ipynb$
+        additional_dependencies:
+          - "nbformat"
+        require_serial: true
+      - id: verify-notebook-format-execution-count
+        name: format nbformat execution-count
+        language: pygrep
+        files: \.ipynb$
+        entry: '"execution_count": -'
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.8.1
+    hooks:
+      - id: nbstripout
+        name: format nbformat nbstripout
+        args:
+          [
+            --keep-output,
+            --keep-count,
+            --drop-empty-cells,
+            --keep-metadata-keys=cell.metadata.scrolled,
+          ]
+
+  - repo: local
+    hooks:
+      - id: verify-platform-links-nightly
+        name: Forbid links to nightly.platform
+        language: pygrep
+        files: \.ipynb$
+        exclude: (^|/)logical_qubits_by_alice_and_bob\.ipynb$
+        entry: https://nightly\.platform\.softqlib\.io
+      - id: verify-platform-links-dev
+        name: Forbid links with dev version
+        language: pygrep
+        files: \.ipynb$
+        exclude: (^|/)logical_qubits_by_alice_and_bob\.ipynb$
+        entry: '[?&]version=[^ \t\n]*\.dev'
+      - id: verify-platform-links-old
+        name: Forbid links from older versions
+        language: pygrep
+        files: \.ipynb$
+        exclude: (^|/)logical_qubits_by_alice_and_bob\.ipynb$
+        entry: '"Opening:\s+https://'
+
+      - id: notebook-pre-commit
+        name: Validate naming notebooks
+        description: Ensure notebooks conventions
+        entry: .internal/pre_commit_tools/notebook_pre_commit_collection.py
+        language: python
+        files: \.ipynb$
+        require_serial: true
+      - id: qmod-pre-commit
+        name: Validate naming qmods
+        description: Ensure qmods conventions
+        entry: .internal/pre_commit_tools/qmod_pre_commit_collection.py
+        language: python
+        files: \.qmod$
+        require_serial: true
+      - id: validate-metadata-file
+        name: Validate Metadata file
+        description: Add file if non existant and validate value otherwise
+        entry: .internal/pre_commit_tools/metadata_validate.py
+        language: python
+        files: \.(qmod|ipynb)$
+        require_serial: true
+      - id: auto-add-tests
+        name: Auto add test
+        description: Automatically adding a test to new notebooks
+        entry: .internal/pre_commit_tools/auto_add_tests.py
+        language: python
+        files: \.ipynb$
+        require_serial: true

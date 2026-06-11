@@ -1,0 +1,10 @@
+{
+  "title": "Kidney Exchange Problem",
+  "subtitle": "Kidney Exchange QAOA Example",
+  "description": "This notebook implements the kidney exchange problem with QAOA. The compatibility graph and exchange constraints are encoded; QAOA finds feasible matchings that maximize exchanges.",
+  "friendly_name": "Kidney Exchange Problem",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": [],
+  "level": []
+}

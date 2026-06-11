@@ -1,0 +1,10 @@
+{
+  "title": "Set Cover",
+  "subtitle": "Solving Set Cover Problem Using the QAOA Algorithm",
+  "description": "This notebook implements the set cover problem with QAOA. The set system and coverage constraint are encoded; QAOA returns a small collection of sets that cover the universe.",
+  "friendly_name": "Set Cover",
+  "vertical_tags": [],
+  "problem_domain_tags": ["optimization"],
+  "qmod_type": ["application"],
+  "level": ["demos"]
+}

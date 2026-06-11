@@ -1,0 +1,10 @@
+{
+  "title": "QPE For Grover Operator",
+  "subtitle": "Quantum Phase Estimation on a Grover Operator",
+  "description": "This notebook demonstrates SoftQLib's QPE applied to a Grover operator, which is the core of amplitude estimation. A toy model is used: a Grover operator for a chosen good state on 5 qubits. It shows how to build the model and use the built-in qpe function for eigenvalue estimation.",
+  "friendly_name": "QPE For Grover Operator",
+  "vertical_tags": [],
+  "problem_domain_tags": [],
+  "qmod_type": [],
+  "level": []
+}
