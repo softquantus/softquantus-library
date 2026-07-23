@@ -40,7 +40,7 @@ jobs:
           # Passing which notebooks changed
           SHOULD_TEST_ALL_FILES: "true"
           # Passing environment information
-          SOFTQLIB_IDE: "https://nightly.platform.softqlib.io"
+          SYNAPSEX_IDE: "https://nightly.platform.softqlib.io"
           SOFTQLIB_HOST: "https://nightly.platform.softqlib.io"
 
       # Summarize results for Slack copy-paste

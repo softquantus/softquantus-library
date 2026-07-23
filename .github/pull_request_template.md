@@ -4,7 +4,7 @@
 
 ### Some notes
 
-- [ ] Please make sure that the notebook runs successfully with the latest SoftQLib version.
+- [ ] Please make sure that the notebook runs successfully with the latest SynapseX QMOD version.
 
 - [ ] Please make sure that you placed the files in an appropriate folder
 
@@ -21,5 +21,5 @@
 - [ ] Please make sure to run `pre-commit` when commiting changes
   - [ ] If you're using `git` in the terminal, make sure to install `pre-commit` via running `pip install pre-commit` followed by `pre-commit install`
     - [ ] More info at [the `pre-commit` documentation](https://pre-commit.com/)
-  - [ ] Note that SoftQLib runs automatic code linting. Meaning that one of the tests verifies the output of `pre-commit`.
+  - [ ] Note that SynapseX QMOD runs automatic code linting. Meaning that one of the tests verifies the output of `pre-commit`.
   - [ ] Also note that `pre-commit` may minorly alter some files. Make sure to `git add` the changes done by `pre-commit`
